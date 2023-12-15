@@ -38,5 +38,3 @@ for tweet in timeline:
             print "Deleting: ", tweet.text
             deletion_count = deletion_count + 1
 print "Deleted %d tweets, ignored %d" % (deletion_count, ignored_count)
-else:
-print "Not deleting tweets"
